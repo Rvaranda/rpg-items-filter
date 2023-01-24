@@ -1,0 +1,46 @@
+table {
+    text-align: center;
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+}
+
+thead {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+th, td {
+    padding: 0.5em;
+}
+
+td {
+    font-size: 0.8em;
+    /* border: 1px solid black; */
+}
+
+td::first-letter {
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+.rarity {
+    font-weight: 700;
+}
+
+.common {
+    color: black;
+}
+
+.uncommon {
+    color: green;
+}
+
+.rare {
+    color: blue;
+}
